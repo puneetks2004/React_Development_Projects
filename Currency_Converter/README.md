@@ -18,3 +18,5 @@ API: ExchangeRate-API for live currency rates<br>
 <br>
 Images:<br>
 
+![Image](https://github.com/user-attachments/assets/b2037551-9cc2-407f-a62c-c837678e16ad)
+
