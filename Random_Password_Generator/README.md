@@ -3,10 +3,10 @@ A React-based Password Generator that creates secure passwords with customizable
 <br>
 
 🚀 Features :<br>
- ✅ Customizable password length (6–100) 
- ✅ Include numbers and special characters 
- ✅ One-click copy to clipboard 
- ✅ Responsive design
+ ✅ Customizable password length (6–100) <br>
+ ✅ Include numbers and special characters <br>
+ ✅ One-click copy to clipboard <br>
+ ✅ Responsive design<br>
 <br>
 
 🛠️ Tech Stack : <br>
