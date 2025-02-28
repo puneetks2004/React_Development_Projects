@@ -14,6 +14,9 @@ A simple and responsive currency converter application built with React and Tail
 Frontend: React, Tailwind CSS<br>
 State Management: React Hooks (useState, useEffect)<br>
 API: ExchangeRate-API for live currency rates<br>
+"https://api.exchangerate-api.com/v4/latest/${currency}"
+
+<br>
 
 <br>
 Images:<br>
