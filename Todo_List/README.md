@@ -1,4 +1,4 @@
-<center>Todo App</center>
+Todo App<br><br>
 
 
 Overview:<br>
