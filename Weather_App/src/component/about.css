@@ -1,0 +1,491 @@
+.part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 30px auto;
+    background-color: #171717;
+    color: white;
+}
+
+.part1 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    background: linear-gradient(270deg, #adc003 10%, #053cf1 100%);
+    background-clip: text;
+    /* These two CSS properties are used together to create text with a background image or gradient fill*/
+    -webkit-background-clip: text;
+    /* This clips the background (like a gradient or image) to the text shape,
+            not the entire element box.*/
+    -webkit-text-fill-color: transparent;
+    /* Makes the actual text color transparent,
+            so only the background showing through the text is visible. */
+}
+
+.part1 p {
+    font-size: 20px;
+}
+
+.card {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #262626;
+    color: white;
+    cursor: pointer;
+
+
+
+}
+
+.part2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 3rem;
+    column-gap: 3rem;
+    background-color: #171717;
+    margin: 20px 200px;
+    padding: 20px;
+}
+
+.c1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.c2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.c2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.c2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.heading p {
+    font-weight: 700;
+    background: linear-gradient(270deg, #03c084 10%, #053cf1 100%);
+    background-clip: text;
+    /* These two CSS properties are used together to create text with a background image or gradient fill*/
+    -webkit-background-clip: text;
+    /* This clips the background (like a gradient or image) to the text shape,
+            not the entire element box.*/
+    -webkit-text-fill-color: transparent;
+    /* Makes the actual text color transparent,
+            so only the background showing through the text is visible. */
+
+}
+
+.content {
+    font-size: 16px;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 200px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    background-color: #18181b;
+
+}
+
+.last-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 2rem;
+}
+
+.l1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.l2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.l3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.l4 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.last {
+    padding: 20px;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #262626;
+    cursor: pointer;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+
+
+
+}
+
+.part3-heading {
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+.last h3 {
+    background: linear-gradient(270deg, #03c084 10%, #053cf1 100%);
+    background-clip: text;
+    /* These two CSS properties are used together to create text with a background image or gradient fill*/
+    -webkit-background-clip: text;
+    /* This clips the background (like a gradient or image) to the text shape,
+                    not the entire element box.*/
+    -webkit-text-fill-color: transparent;
+    /* Makes the actual text color transparent,
+                    so only the background showing through the text is visible. */
+}
+
+
+@media(max-width:1060px) {
+    .part2 {
+        margin: 20px 150px;
+    }
+
+    .part3 {
+        margin: 20px 150px;
+    }
+
+    .heading {
+
+        font-size: 22px;
+    }
+
+    .content {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media(max-width:1015px) {
+    .part2 {
+        margin: 20px 100px;
+    }
+
+    .part3 {
+        margin: 20px 100px;
+    }
+
+    .heading {
+
+        font-size: 20px;
+    }
+
+    .content {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media(max-width:880px) {
+    .part2 {
+        margin: 20px 80px;
+    }
+
+    .part3 {
+        margin: 20px 80px;
+    }
+
+    .heading {
+
+        font-size: 18px;
+    }
+
+    .content {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media(max-width:810px) {
+    .part2 {
+        margin: 20px 50px;
+    }
+
+    .part3 {
+        margin: 20px 50px;
+    }
+
+    .heading {
+
+        font-size: 18px;
+    }
+
+    .content {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .card {
+
+        padding: 20px 30px;
+
+
+
+
+
+    }
+}
+
+@media(max-width:710px) {
+    .part2 {
+        margin: 20px 20px;
+    }
+
+    .part3 {
+        margin: 20px 20px;
+    }
+
+    .heading {
+
+        font-size: 18px;
+    }
+
+    .content {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .card {
+
+        padding: 20px 30px;
+
+
+
+
+
+    }
+
+    .part1 h2 {
+        font-size: 30px;
+
+    }
+
+    .part1 p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:645px) {
+    .part2 {
+        margin: 20px 20px;
+    }
+
+    .part3 {
+        margin: 20px 20px;
+    }
+
+    .heading {
+
+        font-size: 18px;
+    }
+
+    .content {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .card {
+
+        padding: 20px 30px;
+
+
+
+
+
+    }
+
+    .part1 h2 {
+        font-size: 30px;
+
+    }
+
+    .part1 p {
+        font-size: 15px;
+    }
+
+    .part2 {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #171717;
+        margin: 20px 50px;
+        padding: 20px;
+    }
+
+    .last-parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+
+
+    .l1 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .l2 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .l3 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .l4 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .part3 {
+        margin: 20px 40px;
+    }
+
+}
+
+@media(max-width:500px) {
+    .part1 p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+
+@media(max-width:450px) {
+    .part1 p {
+        font-size: 15px;
+        text-align: center;
+        margin: 5px 10px;
+    }
+
+}
+
+@media(max-width:420px) {
+    .part2 {
+        margin: 20px 15px;
+    }
+
+}
+
+@media(max-width:400px) {
+    .last-parent {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+
+
+    .l1 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .l2 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .l3 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .l4 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .part3-heading {
+        text-align: center;
+
+
+    }
+}
+
+.empty {
+    padding: 20px;
+}
