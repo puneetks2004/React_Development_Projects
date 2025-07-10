@@ -1,8 +1,9 @@
 🌦️ Weather App
 A sleek and responsive weather dashboard built with React.js that fetches real-time weather data from an open weather API.
 This application provides users with current weather conditions, 5-day forecasts, and beautiful UI elements for an engaging user experience.
-
+<br><br>
 ✨ Features
+<br>
 🔍 City-based Search – Get weather updates by entering a city name.
 
 📅 5-Day Forecast – View weather trends for the next five days.
