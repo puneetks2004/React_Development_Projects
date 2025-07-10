@@ -19,3 +19,8 @@ Vite – Fast build tool<br>
 OpenWeatherMap API – For real-time weather data<br>
 CSS / Tailwind CSS – Styling<br>
 React Icons – Scalable vector icons<br>
+
+Img:
+<br>
+<img width="959" height="761" alt="Image" src="https://github.com/user-attachments/assets/5f4e635f-f240-4243-b45f-a6ed7e4f660b" />
+<br>
