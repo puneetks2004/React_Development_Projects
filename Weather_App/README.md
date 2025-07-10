@@ -5,25 +5,17 @@ This app provides real-time weather details, a 5-day forecast, and an elegant, u
 <br>
 
 ✨ Features<br>
-🔍 City Search: Enter any city to view current weather.
-
-📅 5-Day Forecast: See upcoming weather trends.
-
-🌡️ Detailed Stats: Temperature, humidity, wind speed, visibility, and more.
-
-🎨 Clean UI: Built with React components and styled using CSS (with Tailwind CSS integration).
-
-⚙️ Live Data: Fetched dynamically from OpenWeatherMap API.
+🔍 City Search: Enter any city to view current weather.<br>
+📅 5-Day Forecast: See upcoming weather trends.<br>
+🌡️ Detailed Stats: Temperature, humidity, wind speed, visibility, and more.<br>
+🎨 Clean UI: Built with React components and styled using CSS (with Tailwind CSS integration).<br>
+⚙️ Live Data: Fetched dynamically from OpenWeatherMap API.<br>
 <br>
 <br>
 
 📦 Tech Stack<br>
-React.js – Front-end framework
-
-Vite – Fast build tool
-
-OpenWeatherMap API – For real-time weather data
-
-CSS / Tailwind CSS – Styling
-
-React Icons – Scalable vector icons
+React.js – Front-end framework<br>
+Vite – Fast build tool<br>
+OpenWeatherMap API – For real-time weather data<br>
+CSS / Tailwind CSS – Styling<br>
+React Icons – Scalable vector icons<br>
