@@ -1,4 +1,4 @@
-📰 News Web App<br>
+📰 News Web App<br><br>
 A modern news web application built with React, Tailwind CSS, and standard web technologies (HTML, CSS, JavaScript).
 This project fetches live news using the RSS feed from The Times of India (TOI) and displays them in elegant, responsive news cards.
 
