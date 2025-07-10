@@ -1,15 +1,25 @@
 🌦️ Weather App
-A sleek and responsive weather dashboard built with React.js that fetches real-time weather data from an open weather API.
-This application provides users with current weather conditions, 5-day forecasts, and beautiful UI elements for an engaging user experience.
-<br><br>
+A modern, responsive weather dashboard built with React.js, powered by the OpenWeatherMap API.
+This app provides real-time weather details, a 5-day forecast, and an elegant, user-friendly interface.
+
 ✨ Features
-<br>
-🔍 City-based Search – Get weather updates by entering a city name.
+🔍 City Search: Enter any city to view current weather.
 
-📅 5-Day Forecast – View weather trends for the next five days.
+📅 5-Day Forecast: See upcoming weather trends.
 
-🌡️ Detailed Metrics – Temperature, humidity, wind speed, visibility, and more.
+🌡️ Detailed Stats: Temperature, humidity, wind speed, visibility, and more.
 
-🎨 Modern UI – Designed with React components, CSS, and subtle animations.
+🎨 Clean UI: Built with React components and styled using CSS (with Tailwind CSS integration).
 
-⚙️ API Integration – Fetches live data from a weather API.
+⚙️ Live Data: Fetched dynamically from OpenWeatherMap API.
+
+📦 Tech Stack
+React.js – Front-end framework
+
+Vite – Fast build tool
+
+OpenWeatherMap API – For real-time weather data
+
+CSS / Tailwind CSS – Styling
+
+React Icons – Scalable vector icons
