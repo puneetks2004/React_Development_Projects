@@ -11,7 +11,8 @@ export default function useWeather(city) {
         if (city) {
 
 
-            fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=217fbdf0ca1d389b54a744f720c84d26&units=metric`).then((response) => {
+            fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${import.meta.env.VITE_WEATHER_API_KEY
+}&units=metric`).then((response) => {
                 return response.json()
             }).then((value) => {
                 if (value.cod == 200) {
