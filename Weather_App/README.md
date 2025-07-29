@@ -1,4 +1,4 @@
-🌦️ Weather App
+🌦️ Weather App<br>
 A modern, responsive weather dashboard built with React.js, powered by the OpenWeatherMap API.
 This app provides real-time weather details, a 5-day forecast, and an elegant, user-friendly interface.
 <br>
@@ -19,12 +19,14 @@ Vite – Fast build tool<br>
 OpenWeatherMap API – For real-time weather data<br>
 CSS / Tailwind CSS – Styling<br>
 React Icons – Scalable vector icons<br>
+<br>
+<br>
 
-## 🔗 Live Demo
+🔗 Live Demo<br>
 
-👉 [Click here to view the live site]([https://your-live-link.netlify.app](https://react-development-projects.vercel.app/))
+👉 [Click here to view the live site](https://react-development-projects.vercel.app/)
+<br>
 
----
 
 Img:
 <br>
