@@ -20,6 +20,12 @@ OpenWeatherMap API – For real-time weather data<br>
 CSS / Tailwind CSS – Styling<br>
 React Icons – Scalable vector icons<br>
 
+## 🔗 Live Demo
+
+👉 [Click here to view the live site]([https://your-live-link.netlify.app](https://react-development-projects.vercel.app/))
+
+---
+
 Img:
 <br>
 <br>
